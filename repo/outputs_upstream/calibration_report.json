@@ -1,0 +1,153 @@
+{
+  "within_domain": {
+    "CT": {
+      "n_cal": 220,
+      "n_test": 61,
+      "test_spearman": 0.836,
+      "alphas": {
+        "0.10": {
+          "q": 0.1659,
+          "coverage": 0.8689,
+          "mean_width": 0.3317
+        },
+        "0.20": {
+          "q": 0.1174,
+          "coverage": 0.7213,
+          "mean_width": 0.2348
+        }
+      }
+    },
+    "NYU": {
+      "n_cal": 17,
+      "n_test": 16,
+      "test_spearman": 0.656,
+      "alphas": {
+        "0.10": {
+          "q": 0.147,
+          "coverage": 0.75,
+          "mean_width": 0.294
+        },
+        "0.20": {
+          "q": 0.0944,
+          "coverage": 0.5,
+          "mean_width": 0.1888
+        }
+      }
+    },
+    "OOP": {
+      "n_cal": 68,
+      "n_test": 26,
+      "test_spearman": 0.523,
+      "alphas": {
+        "0.10": {
+          "q": 0.0966,
+          "coverage": 0.7308,
+          "mean_width": 0.1932
+        },
+        "0.20": {
+          "q": 0.0678,
+          "coverage": 0.6154,
+          "mean_width": 0.1355
+        }
+      }
+    }
+  },
+  "leave_one_domain_out": [
+    {
+      "calibrate_on": "CT",
+      "test_on": "NYU",
+      "alpha": 0.1,
+      "coverage": 0.8485,
+      "mean_width": 0.3365,
+      "within_domain_coverage": 0.75
+    },
+    {
+      "calibrate_on": "CT",
+      "test_on": "NYU",
+      "alpha": 0.2,
+      "coverage": 0.6667,
+      "mean_width": 0.2539,
+      "within_domain_coverage": 0.75
+    },
+    {
+      "calibrate_on": "CT",
+      "test_on": "OOP",
+      "alpha": 0.1,
+      "coverage": 0.5532,
+      "mean_width": 0.3365,
+      "within_domain_coverage": 0.7308
+    },
+    {
+      "calibrate_on": "CT",
+      "test_on": "OOP",
+      "alpha": 0.2,
+      "coverage": 0.4362,
+      "mean_width": 0.2539,
+      "within_domain_coverage": 0.7308
+    },
+    {
+      "calibrate_on": "NYU",
+      "test_on": "CT",
+      "alpha": 0.1,
+      "coverage": 0.7972,
+      "mean_width": 0.3106,
+      "within_domain_coverage": 0.8689
+    },
+    {
+      "calibrate_on": "NYU",
+      "test_on": "CT",
+      "alpha": 0.2,
+      "coverage": 0.7616,
+      "mean_width": 0.2882,
+      "within_domain_coverage": 0.8689
+    },
+    {
+      "calibrate_on": "NYU",
+      "test_on": "OOP",
+      "alpha": 0.1,
+      "coverage": 0.3723,
+      "mean_width": 0.3106,
+      "within_domain_coverage": 0.7308
+    },
+    {
+      "calibrate_on": "NYU",
+      "test_on": "OOP",
+      "alpha": 0.2,
+      "coverage": 0.3085,
+      "mean_width": 0.2882,
+      "within_domain_coverage": 0.7308
+    },
+    {
+      "calibrate_on": "OOP",
+      "test_on": "CT",
+      "alpha": 0.1,
+      "coverage": 0.0996,
+      "mean_width": 0.2288,
+      "within_domain_coverage": 0.8689
+    },
+    {
+      "calibrate_on": "OOP",
+      "test_on": "CT",
+      "alpha": 0.2,
+      "coverage": 0.089,
+      "mean_width": 0.1757,
+      "within_domain_coverage": 0.8689
+    },
+    {
+      "calibrate_on": "OOP",
+      "test_on": "NYU",
+      "alpha": 0.1,
+      "coverage": 0.0303,
+      "mean_width": 0.2288,
+      "within_domain_coverage": 0.75
+    },
+    {
+      "calibrate_on": "OOP",
+      "test_on": "NYU",
+      "alpha": 0.2,
+      "coverage": 0.0303,
+      "mean_width": 0.1757,
+      "within_domain_coverage": 0.75
+    }
+  ]
+}

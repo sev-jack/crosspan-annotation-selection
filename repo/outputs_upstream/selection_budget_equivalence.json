@@ -1,0 +1,194 @@
+[
+  {
+    "target": "OOP",
+    "k": 5,
+    "strategy": "diversity",
+    "strategy_dice": 0.397663,
+    "equivalent_random_budget": 9.2,
+    "extra_cases_saved": 4.2
+  },
+  {
+    "target": "OOP",
+    "k": 5,
+    "strategy": "entropy",
+    "strategy_dice": 0.317607,
+    "equivalent_random_budget": 6.2,
+    "extra_cases_saved": 1.2
+  },
+  {
+    "target": "OOP",
+    "k": 5,
+    "strategy": "contrast",
+    "strategy_dice": 0.247401,
+    "equivalent_random_budget": 3.4,
+    "extra_cases_saved": -1.6
+  },
+  {
+    "target": "OOP",
+    "k": 5,
+    "strategy": "hard",
+    "strategy_dice": 0.272034,
+    "equivalent_random_budget": 4.4,
+    "extra_cases_saved": -0.6
+  },
+  {
+    "target": "OOP",
+    "k": 10,
+    "strategy": "diversity",
+    "strategy_dice": 0.481162,
+    "equivalent_random_budget": 14.0,
+    "extra_cases_saved": 4.0
+  },
+  {
+    "target": "OOP",
+    "k": 10,
+    "strategy": "entropy",
+    "strategy_dice": 0.415862,
+    "equivalent_random_budget": 9.9,
+    "extra_cases_saved": -0.1
+  },
+  {
+    "target": "OOP",
+    "k": 10,
+    "strategy": "contrast",
+    "strategy_dice": 0.398305,
+    "equivalent_random_budget": 9.3,
+    "extra_cases_saved": -0.7
+  },
+  {
+    "target": "OOP",
+    "k": 10,
+    "strategy": "hard",
+    "strategy_dice": 0.350864,
+    "equivalent_random_budget": 7.5,
+    "extra_cases_saved": -2.5
+  },
+  {
+    "target": "NYU",
+    "k": 5,
+    "strategy": "diversity",
+    "strategy_dice": 0.642398,
+    "equivalent_random_budget": 4.7,
+    "extra_cases_saved": -0.3
+  },
+  {
+    "target": "NYU",
+    "k": 5,
+    "strategy": "entropy",
+    "strategy_dice": 0.626511,
+    "equivalent_random_budget": 3.1,
+    "extra_cases_saved": -1.9
+  },
+  {
+    "target": "NYU",
+    "k": 5,
+    "strategy": "contrast",
+    "strategy_dice": 0.652563,
+    "equivalent_random_budget": 10.7,
+    "extra_cases_saved": 5.7
+  },
+  {
+    "target": "NYU",
+    "k": 5,
+    "strategy": "hard",
+    "strategy_dice": 0.630716,
+    "equivalent_random_budget": 3.5,
+    "extra_cases_saved": -1.5
+  },
+  {
+    "target": "NYU",
+    "k": 10,
+    "strategy": "diversity",
+    "strategy_dice": 0.658122,
+    "equivalent_random_budget": 12.4,
+    "extra_cases_saved": 2.4
+  },
+  {
+    "target": "NYU",
+    "k": 10,
+    "strategy": "entropy",
+    "strategy_dice": 0.637904,
+    "equivalent_random_budget": 4.3,
+    "extra_cases_saved": -5.7
+  },
+  {
+    "target": "NYU",
+    "k": 10,
+    "strategy": "contrast",
+    "strategy_dice": 0.664894,
+    "equivalent_random_budget": 14.6,
+    "extra_cases_saved": 4.6
+  },
+  {
+    "target": "NYU",
+    "k": 10,
+    "strategy": "hard",
+    "strategy_dice": 0.643905,
+    "equivalent_random_budget": 4.9,
+    "extra_cases_saved": -5.1
+  },
+  {
+    "target": "CT",
+    "k": 5,
+    "strategy": "diversity",
+    "strategy_dice": 0.604301,
+    "equivalent_random_budget": 4.0,
+    "extra_cases_saved": -1.0
+  },
+  {
+    "target": "CT",
+    "k": 5,
+    "strategy": "entropy",
+    "strategy_dice": 0.61733,
+    "equivalent_random_budget": 4.5,
+    "extra_cases_saved": -0.5
+  },
+  {
+    "target": "CT",
+    "k": 5,
+    "strategy": "contrast",
+    "strategy_dice": 0.630732,
+    "equivalent_random_budget": 5.4,
+    "extra_cases_saved": 0.4
+  },
+  {
+    "target": "CT",
+    "k": 5,
+    "strategy": "hard",
+    "strategy_dice": 0.58252,
+    "equivalent_random_budget": 3.1,
+    "extra_cases_saved": -1.9
+  },
+  {
+    "target": "CT",
+    "k": 10,
+    "strategy": "diversity",
+    "strategy_dice": 0.628958,
+    "equivalent_random_budget": 5.0,
+    "extra_cases_saved": -5.0
+  },
+  {
+    "target": "CT",
+    "k": 10,
+    "strategy": "entropy",
+    "strategy_dice": 0.643923,
+    "equivalent_random_budget": 8.4,
+    "extra_cases_saved": -1.6
+  },
+  {
+    "target": "CT",
+    "k": 10,
+    "strategy": "contrast",
+    "strategy_dice": 0.654277,
+    "equivalent_random_budget": 11.6,
+    "extra_cases_saved": 1.6
+  },
+  {
+    "target": "CT",
+    "k": 10,
+    "strategy": "hard",
+    "strategy_dice": 0.618573,
+    "equivalent_random_budget": 4.6,
+    "extra_cases_saved": -5.4
+  }
+]

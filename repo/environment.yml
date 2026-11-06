@@ -1,0 +1,39 @@
+# Conda 环境（MRI→CT 实验用）
+#
+# 用法：
+#     conda env create -f 实验DG\environment.yml
+#     conda activate pancreas-dg
+#
+# 本机已有的 .venv（Python 3.13 + torch 2.14+cu126 + MONAI）也能直接跑，
+# 这份文件是为了换机器（尤其是实验室 Linux 服务器）时能一键复现。
+#
+# 注意：国内直连 download.pytorch.org 会被重置。如果下面 pip 段装 torch 失败，
+# 先手动用镜像装好再跳过它：
+#     pip install https://mirror.sjtu.edu.cn/pytorch-wheels/cu126/torch-2.9.1%2Bcu126-cp311-cp311-win_amd64.whl
+#     pip install https://mirror.sjtu.edu.cn/pytorch-wheels/cu126/torchvision-0.24.1%2Bcu126-cp311-cp311-win_amd64.whl
+
+name: pancreas-dg
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip>=24
+  - numpy>=1.26,<3
+  - scipy
+  - pandas
+  - scikit-learn
+  - nibabel
+  - simpleitk
+  - tqdm
+  - pillow
+  - pip:
+      # torch + torchvision 必须版本配对，否则报 "operator torchvision::nms does not exist"
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch==2.9.1+cu126
+      - torchvision==0.24.1+cu126
+      - monai>=1.6
+      # 可选：跑 nnU-Net 时才需要
+      # - nnunetv2==2.8.1
+      # - blosc2==3.3.2
